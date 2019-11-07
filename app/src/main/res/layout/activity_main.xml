@@ -6,12 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+    android:background="#E5E5E5"
     tools:context=".MainActivity">
 
     <ListView
         android:id="@+id/storeListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:dividerHeight="10dp"
+        android:divider="#E5E5E5"
         />
 
 </LinearLayout>
